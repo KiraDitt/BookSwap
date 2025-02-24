@@ -1,0 +1,40 @@
+# 🛑 Node.js (backend & frontend)
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn.lock
+
+# 🛑 Miljøfiler (Gemmer dine følsomme oplysninger)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 🛑 VS Code Specifikke Filer
+.vscode/
+*.code-workspace
+
+# 🛑 Logfiler
+logs
+*.log
+logs/*.log
+logs/**/*.log
+
+# 🛑 OS-specifikke filer
+.DS_Store
+Thumbs.db
+
+# 🛑 Build-filer (frontend & backend)
+dist/
+build/
+
+# 🛑 React-specifikke filer (Frontend)
+# Production build
+frontend/build/
+
+# React test coverage rapporter
+coverage/
+
+# Dependency-cacher
+.pnpm-store/
