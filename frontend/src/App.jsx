@@ -1,13 +1,12 @@
 import './App.css';
+import { Button } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <Button variant="contained" color="primary">
+        Klik mig
+      </Button>
     </div>
   );
 }
